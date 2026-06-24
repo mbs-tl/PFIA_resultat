@@ -1,0 +1,162 @@
+import { IADetectionRow, SimpleMeasure } from "./types";
+
+export const demoIADetection: IADetectionRow[] = [
+  {
+    date: "10/06/2026 10:24:49",
+    email: "julien.delaunay@talan.fr",
+    urlImage: "https://detection-ia-test/main/img/car_real.jpg",
+    typeReel: "Réelle",
+    premierAvis: "Réelle",
+    temps: 11.57,
+    raison: "",
+    confianceInitiale: 80,
+    avisIA: "Réelle",
+    changementAvis: "non",
+    confianceFinale: 75
+  },
+  {
+    date: "10/06/2026 10:24:52",
+    email: "tristan.montagnon@talan.fr",
+    urlImage: "https://detection-ia-test/main/img/portrait_ai.jpg",
+    typeReel: "IA",
+    premierAvis: "Réelle",
+    temps: 5.89,
+    raison: "Arrière-plan, Éclairage, Textures",
+    confianceInitiale: 75,
+    avisIA: "IA",
+    changementAvis: "oui",
+    confianceFinale: 75
+  },
+  {
+    date: "10/06/2026 10:25:00",
+    email: "antoine.auvergne@talan.fr",
+    urlImage: "https://detection-ia-test/main/img/cat_ai.jpg",
+    typeReel: "IA",
+    premierAvis: "Réelle",
+    temps: 6.26,
+    raison: "Textures de fourrure",
+    confianceInitiale: 85,
+    avisIA: "IA",
+    changementAvis: "oui",
+    confianceFinale: 75
+  },
+  {
+    date: "10/06/2026 10:25:12",
+    email: "binbing.ning@talan.fr",
+    urlImage: "https://detection-ia-test/main/img/house_ai.jpg",
+    typeReel: "IA",
+    premierAvis: "IA",
+    temps: 4.32,
+    raison: "Éclairage, Textures",
+    confianceInitiale: 60,
+    avisIA: "IA",
+    changementAvis: "non",
+    confianceFinale: 75
+  },
+  {
+    date: "10/06/2026 10:25:15",
+    email: "antoine.auvergne@talan.fr",
+    urlImage: "https://detection-ia-test/main/img/scenery_real.jpg",
+    typeReel: "Réelle",
+    premierAvis: "IA",
+    temps: 4.07,
+    raison: "Géométrie bizarre",
+    confianceInitiale: 90,
+    avisIA: "Réelle",
+    changementAvis: "oui",
+    confianceFinale: 75
+  },
+  {
+    date: "10/06/2026 10:25:17",
+    email: "tristan.montagnon@talan.fr",
+    urlImage: "https://detection-ia-test/main/img/food_real.jpg",
+    typeReel: "Réelle",
+    premierAvis: "IA",
+    temps: 9.01,
+    raison: "Reflets trop parfaits",
+    confianceInitiale: 85,
+    avisIA: "Réelle",
+    changementAvis: "oui",
+    confianceFinale: 75
+  },
+  {
+    date: "10/06/2026 10:25:19",
+    email: "marion.stauri@talan.fr",
+    urlImage: "https://detection-ia-test/main/img/car_ai.jpg",
+    typeReel: "IA",
+    premierAvis: "Réelle",
+    temps: 5.23,
+    raison: "",
+    confianceInitiale: 85,
+    avisIA: "IA",
+    changementAvis: "oui",
+    confianceFinale: 70
+  },
+  {
+    date: "10/06/2026 10:25:24",
+    email: "julien.delaunay@talan.fr",
+    urlImage: "https://detection-ia-test/main/img/nature_real.jpg",
+    typeReel: "Réelle",
+    premierAvis: "Réelle",
+    temps: 19.97,
+    raison: "",
+    confianceInitiale: 70,
+    avisIA: "Réelle",
+    changementAvis: "non",
+    confianceFinale: 70
+  },
+  {
+    date: "10/06/2026 10:25:23",
+    email: "antoine.auvergne@talan.fr",
+    urlImage: "https://detection-ia-test/main/img/abstract_ai.jpg",
+    typeReel: "IA",
+    premierAvis: "Réelle",
+    temps: 2.96,
+    raison: "Artefacts de rendu",
+    confianceInitiale: 95,
+    avisIA: "IA",
+    changementAvis: "oui",
+    confianceFinale: 75
+  },
+  {
+    date: "10/06/2026 10:26:02",
+    email: "marion.stauri@talan.fr",
+    urlImage: "https://detection-ia-test/main/img/face_real.jpg",
+    typeReel: "Réelle",
+    premierAvis: "Réelle",
+    temps: 8.41,
+    raison: "",
+    confianceInitiale: 90,
+    avisIA: "Réelle",
+    changementAvis: "non",
+    confianceFinale: 90
+  },
+  {
+    date: "10/06/2026 10:26:15",
+    email: "binbing.ning@talan.fr",
+    urlImage: "https://detection-ia-test/main/img/hand_ai.jpg",
+    typeReel: "IA",
+    premierAvis: "IA",
+    temps: 12.33,
+    raison: "Nombre de doigts incorrect (6 doigts)",
+    confianceInitiale: 95,
+    avisIA: "IA",
+    changementAvis: "non",
+    confianceFinale: 95
+  }
+];
+
+export const demoSimpleMeasures: SimpleMeasure[] = [
+  { date: "10/06/2026 09:00:00", value: 12.4 },
+  { date: "10/06/2026 10:00:00", value: 15.1 },
+  { date: "10/06/2026 11:00:00", value: 18.7 },
+  { date: "10/06/2026 12:00:00", value: 21.3 },
+  { date: "10/06/2026 13:00:00", value: 24.8 },
+  { date: "10/06/2026 14:00:00", value: 26.2 },
+  { date: "10/06/2026 15:00:00", value: 25.9 },
+  { date: "10/06/2026 16:00:00", value: 23.1 },
+  { date: "10/06/2026 17:00:00", value: 19.8 },
+  { date: "10/06/2026 18:00:00", value: 16.5 },
+  { date: "10/06/2026 19:00:00", value: 14.2 },
+  { date: "10/06/2026 20:00:00", value: 13.0 }
+];
